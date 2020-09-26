@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="shortcut icon" type="image/jpg" href="inc/favicon.ico"/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <script src="main.js" defer></script>
+    <title>David Reider</title>
+  </head>
+  
+  <body>
+    <header class="header">
+      <a href="#home">DAVID REIDER</a>
+      <div class="menu-btn">
+        <div class="menu-btn__lines"></div>
+      </div>
+      <ul class="menu-items">
+        <li><a href="#home" class="menu-item">Home</a></li>
+        <li><a href="#about" class="menu-item">About</a></li>
+        <li><a href="#projects" class="menu-item">Projects</a></li>
+        <li><a href="#contact" class="menu-item">Contact</a></li>
+      </ul>
+    </header>
+
+    <section>
+        <div class="container main-info-section" id="home">
+            <div class="text">
+              <h1>
+                <span>H</span>
+                <span class="m-left">i</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>I</span>
+                <span class="m-left">'</span>
+                <span class="m-left">m</span>
+                <span class="name">D</span>
+                <span class="m-left name">J</span>
+                <span class="m-left">,</span>
+                <br>
+                <span>W</span>
+                <span class="m-left">e</span>
+                <span class="m-left">b</span>
+                <span>D</span>
+                <span class="m-left">e</span>
+                <span class="m-left">v</span>
+                <span class="m-left">e</span>
+                <span class="m-left">l</span>
+                <span class="m-left">o</span>
+                <span class="m-left">p</span>
+                <span class="m-left">e</span>
+                <span class="m-left">r</span>
+                <span class="m-left">.</span>
+              </h1>
+              <p> HTML / CSS / JavaScript</p>
+              <a href="#contact">Contact Me</a>
+              <a href="inc/resume.pdf" target='_blank'>Resume</a>
+            </div>
+          </div>
+    </section>
+
+    <section class="section hero-section" id="about">
+
+      <div class="custom-shape-divider-top-1601088869">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+      </div>
+
+      <div class="hero-col">
+        <h1>About</h1>
+        <h2>Me</h2>
+        <p>
+          I am a web developer. I develop beautiful websites that your clients will love.
+        </p>
+      </div>
+
+      <div class="hero-col hero-img">
+        <img src="laptop.svg" alt="social image" />
+      </div>
+
+      <div class="custom-shape-divider">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92 1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+      </div>
+
+    </section>
+
+    <section class="section another-section" id="projects">
+      <div class="another-col">
+        <h1>Projects</h1>
+        <h2>Web Development</h2>
+        <p>
+          This is where my projects will lay once I have them completed and ready to show.
+        </p>
+      </div>
+
+      <div class="hero-col hero-img">
+        <img src="project-management.svg" alt="social image" />
+      </div>
+    </section>
+
+    <section class="section another-section" id="contact">
+      <div class="container contact" id="contact">
+        <h1>Contact Me</h1>
+        <form name="contact" method="POST" data-netlify="true" action="/">
+          <label for="name"></label>
+            <input type="text" name="name" id="name" placeholder="Full Name">
+          <label for="email"></label>
+            <input type="email" name="email" placeholder="Email">
+          <label for="message"></label>
+            <textarea name="message" cols="30" rows="10" id="message" placeholder="Message"></textarea>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+    </section>
+
+  </body>
+</html>
