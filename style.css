@@ -318,6 +318,29 @@ form input:last-child{
 .hero-img {
     display: none;
 }
+.contact h1{
+  font-size: clamp(60px, 8vw, 200px);
+  opacity: .2;
+  text-align: center;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 0px;
+    border: 3px solid #637562;
+    outline: none;
+    font-size: 14px;
+    position: relative;
+}
+
+form input:last-child{
+    width: 150px;
+    background-color: #ED5565;
+    border: none;
+    cursor: pointer;
+}
+
 }
   
 /* media query for mobile devices */

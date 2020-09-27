@@ -20,6 +20,7 @@ function toggle() {
   menuBtn.classList.toggle("open");
   menuItems.classList.toggle("open");
 }
+
 //Animation
 const spans = document.querySelectorAll('h1 span')
 
