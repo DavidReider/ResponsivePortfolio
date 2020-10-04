@@ -10,6 +10,11 @@ body{
     overflow: hidden;
 }
 
+svg{
+    height: 773px;
+    width: 888px;
+}
+
 #Body{
     animation: birdbody 1s ease-in-out infinite alternate;
 }
@@ -59,4 +64,15 @@ body{
    85% { transform: rotate(5deg); }
    95% { transform: rotate(-5deg); }
   100% { transform: rotate(0deg); }
+}
+
+@media (max-width: 767px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    svg{
+        height: 600px;
+        width: 350px;
+    }
 }
