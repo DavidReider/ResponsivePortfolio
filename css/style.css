@@ -198,7 +198,7 @@ span.m-left{
   
 .section h1 {
   font-family: "Titillium Web", serif;
-  font-size: clamp(60px, 8vw, 200px);
+  font-size: clamp(50px, 8vw, 200px);
   font-weight: 700;
   line-height: 3vw;
   color: #b7d3bc;
@@ -466,6 +466,7 @@ form input:last-child{
     max-width: 100%;
     width: clamp(300px, 50vw, 600px);
 }
+
 .hero-img {
     display: none;
 }
@@ -489,7 +490,7 @@ form textarea{
 
 form input:last-child{
     width: 150px;
-    background-color: #ED5565;
+    background-color:#637562;
     border: none;
     cursor: pointer;
 }
