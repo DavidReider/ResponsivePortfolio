@@ -461,6 +461,11 @@ form input:last-child{
     width: clamp(300px, 50vw, 600px);
     padding: 0;
 }
+
+.another-col{
+    max-width: 100%;
+    width: clamp(300px, 50vw, 600px);
+}
 .hero-img {
     display: none;
 }
