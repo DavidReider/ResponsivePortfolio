@@ -346,7 +346,6 @@ form input:last-child{
 .cards {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   display: -webkit-flex;
   justify-content: center;
   -webkit-justify-content: center;
@@ -498,6 +497,7 @@ form input:last-child{
 
 .card{
   width: 100%;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
