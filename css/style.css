@@ -495,9 +495,12 @@ form input:last-child{
     cursor: pointer;
 }
 
+.cards{
+  flex-wrap: wrap;
+}
+
 .card{
   width: 100%;
-  flex-wrap: wrap;
   margin: 20px;
 }
 
