@@ -40,7 +40,7 @@ body {
 
 .text h1{
     color: #111111;
-    font-size: 3rem;
+    font-size: 4rem;
     cursor: context-menu ;
 }
 
@@ -105,6 +105,10 @@ span.m-left{
   padding: 2px 7px;
   margin-top: 10px;
   border: #fff;
+}
+
+.socials a::before{
+  background-color: #fff;
 }
 
 .socials img{
@@ -340,6 +344,7 @@ form textarea{
     margin: 20px 0;
     outline: none;
     font-size: 1.2rem;
+    font-family: Monterrat, sans-serif;
     position: relative;
     left: 50%;
     right: 50%;
@@ -368,11 +373,11 @@ form input:last-child{
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('/inc/yota.jpg');
+  background-image: url("/inc/yota.jpg");
 }
 
 .card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('/inc/safar-safarov-MSN8TFhJ0is-unsplash.jpg');
+  background-image: url("/inc/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
 }
 
 .card--3 .card__img, .card--3 .card__img--hover {
