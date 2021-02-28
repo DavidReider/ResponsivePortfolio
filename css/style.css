@@ -472,7 +472,15 @@ form input:last-child{
 
 
 /* media query for tablet devices */
-@media (max-width: 1100px) {
+@media (max-width: 1086px) {
+  .main-info-section{
+    height: calc(65vh - 81.6px);
+    margin: auto;
+    max-width: 72em;
+    width: 100%;
+    padding: 10px;
+  }
+
   .text-side{
     display: none;
   }
@@ -548,10 +556,11 @@ form input:last-child{
     margin-left: auto;
     margin-right: auto;
   }
+
 }
 
 /* media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-col {
     max-width: 75%;
     display: grid;
