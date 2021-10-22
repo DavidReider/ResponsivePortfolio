@@ -16,7 +16,7 @@ body {
 }
 
 .container{
-    padding: 0 100px 0 100px;
+    padding: 0 75px 0 75px;
 }
 
 .main-info-section{
@@ -144,10 +144,11 @@ span.m-left{
   font-size: 1rem;
   padding: 0.5em 1em;
   transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  border-radius: 20px
 }
 
 .menu-items li a:hover {
-  background-color: #b7d3bc;
+  background-color: #48CFAD;
 }
 
 /* nav menu button */
@@ -314,7 +315,8 @@ form textarea{
 
 form input:last-child{
     width: 150px;
-    background-color: #637562;
+    height: 50px;
+    background-color: #48CFAD;
     border: none;
     cursor: pointer;
 }
@@ -518,7 +520,7 @@ form input:last-child{
   form textarea{
       display: block;
       width: 100%;
-      padding: 0px;
+      padding: 10px;
       border: 3px solid #637562;
       outline: none;
       font-size: 14px;
@@ -528,7 +530,7 @@ form input:last-child{
 
   form input:last-child{
       width: 150px;
-      background-color:#637562;
+      background-color:#48CFAD;
       border: none;
       cursor: pointer;
   }
@@ -583,7 +585,7 @@ form input:last-child{
       left: 0;
       height: 100vh;
       transform: translateX(100vw);
-      background-color: #406242;
+      background-color: #48CFAD;
       transition: transform 0.3s ease-in-out;
   }
   .menu-items.open {
