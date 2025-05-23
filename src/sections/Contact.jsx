@@ -69,7 +69,7 @@ const Contact = () => {
             platform or bring a unique project to live, I'm here to help!
           </p>
         </div>
-        <form className="w-full" onSubmmit={handleSubmit}>
+        <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label htmlFor="name" className="field-label">
               Full Name
