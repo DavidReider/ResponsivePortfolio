@@ -18,6 +18,7 @@ export function Frameworks() {
     "visualstudiocode",
     "vitejs",
     "wordpress",
+    "php",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

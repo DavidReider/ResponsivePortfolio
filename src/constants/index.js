@@ -33,6 +33,11 @@ export const myProjects = [
         name: "CSS3",
         path: "/assets/logos/css3.svg",
       },
+      {
+        id: 5,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
     ],
   },
   {
@@ -71,9 +76,13 @@ export const myProjects = [
         name: "CSS3",
         path: "/assets/logos/css3.svg",
       },
+      {
+        id: 5,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
     ],
   },
-
   {
     id: 3,
     title: "Boys and Girls Club of Lancaster",
@@ -103,6 +112,16 @@ export const myProjects = [
         id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 4,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
+      },
+      {
+        id: 5,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
       },
     ],
   },
@@ -137,6 +156,16 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+      {
+        id: 4,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
+      },
+      {
+        id: 5,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
     ],
   },
   {
@@ -159,22 +188,27 @@ export const myProjects = [
       {
         id: 1,
         name: "PHP",
-        path: "/assets/logos/PHP.svg",
+        path: "/assets/logos/php.svg",
       },
       {
         id: 2,
+        name: "HTML5",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 3,
         name: "CSS",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 3,
+        id: 4,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
       {
-        id: 4,
+        id: 5,
         name: "Concrete5 CMS",
-        path: "/assets/logos/c5cms.svg",
+        path: "/assets/logos/c5cms.png",
       },
     ],
   },
@@ -214,6 +248,11 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+      {
+        id: 5,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
+      },
     ],
   },
   {
@@ -252,6 +291,11 @@ export const myProjects = [
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
+      {
+        id: 5,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
+      },
     ],
   },
   {
@@ -288,6 +332,11 @@ export const myProjects = [
         id: 4,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
       },
     ],
   },
@@ -326,6 +375,11 @@ export const myProjects = [
         id: 4,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
+      },
+      {
+        id: 5,
+        name: "PHP",
+        path: "/assets/logos/php.svg",
       },
     ],
   },
