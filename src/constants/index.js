@@ -33,11 +33,6 @@ export const myProjects = [
         name: "CSS3",
         path: "/assets/logos/css3.svg",
       },
-      {
-        id: 5,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
     ],
   },
   {
@@ -60,7 +55,6 @@ export const myProjects = [
       { id: 2, name: ".Net", path: "/assets/logos/dotnet.svg" },
       { id: 3, name: "Git", path: "/assets/logos/git.svg" },
       { id: 4, name: "CSS3", path: "/assets/logos/css3.svg" },
-      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
     ],
   },
   {
@@ -82,7 +76,6 @@ export const myProjects = [
       { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
-      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
     ],
   },
   {
@@ -105,7 +98,6 @@ export const myProjects = [
       { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
-      { id: 5, name: "HTML5", path: "/assets/logos/html5.svg" },
     ],
   },
   {
@@ -126,7 +118,6 @@ export const myProjects = [
     image: "/assets/projects/godfrey.png",
     tags: [
       { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
-      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
       { id: 3, name: "CSS", path: "/assets/logos/css3.svg" },
       { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 5, name: "Concrete5 CMS", path: "/assets/logos/c5cms.png" },
@@ -149,7 +140,6 @@ export const myProjects = [
     image: "/assets/projects/leaveyourmarkwithjlg.png",
     tags: [
       { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
-      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
       { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 5, name: "PHP", path: "/assets/logos/php.svg" },
@@ -172,7 +162,6 @@ export const myProjects = [
     image: "/assets/projects/lowlevelaccess_jlg.png",
     tags: [
       { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
-      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
       { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 5, name: "PHP", path: "/assets/logos/php.svg" },
@@ -194,7 +183,6 @@ export const myProjects = [
     image: "/assets/projects/organiclawns.png",
     tags: [
       { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
-      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
       { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 5, name: "PHP", path: "/assets/logos/php.svg" },
@@ -223,21 +211,16 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
         name: "CSS3",
         path: "/assets/logos/css3.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "JavaScript",
         path: "/assets/logos/javascript.svg",
       },
       {
-        id: 5,
+        id: 4,
         name: "PHP",
         path: "/assets/logos/php.svg",
       },
