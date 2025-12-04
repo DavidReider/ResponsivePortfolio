@@ -135,7 +135,6 @@ export const myProjects = [
       "Performed regular site maintenance and content updates.",
       "Collaborated with design and marketing teams to align with branding goals.",
     ],
-    href: "https://leaveyourmarkwithjlg.com/",
     logo: "",
     image: "/assets/projects/leaveyourmarkwithjlg.png",
     tags: [
@@ -157,7 +156,6 @@ export const myProjects = [
       "Integrated analytics and tracking scripts for campaign insights.",
       "Maintained and updated the site to reflect evolving content and UX improvements.",
     ],
-    href: "https://lowlevelaccess.jlg.com/",
     logo: "",
     image: "/assets/projects/lowlevelaccess_jlg.png",
     tags: [
