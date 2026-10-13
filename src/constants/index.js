@@ -267,7 +267,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/david-reider-408578165/",
+    href: "https://www.linkedin.com/in/davidreider/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
@@ -279,13 +279,26 @@ export const mySocials = [
 
 export const experiences = [
   {
+    title: "Web Developer",
+    job: "The FORM Group",
+    date: "2026",
+    contents: [
+      "Developed and maintained custom PHP applications using a proprietary CMS, custom modules, MySQL databases, and various integrations such as Stripe",
+      "Implemented responsive design and interactive functionality using SASS/SCSS and vanilla JavaScript; customized CMS modules to meet project requirements",
+      "Contributed to three full website rebuilds for Hudson Library, Julie Billiart Schools, and Hattie Larlham, plus refreshes and customizations for Urban Assembly, BLINK Cincinnati, and the Diocese of Cleveland",
+      "Implemented BLINK Cincinnati’s bold visual redesign, including an eye-blink-inspired menu animation, for a high-traffic event website",
+      "Supported weekly maintenance across a portfolio of 108+ client websites, assisting with debugging, testing, client requests, updates, and smaller development projects",
+      "Applied accessibility, security, and performance best practices; rebuilt sites demonstrated improved results in Google Lighthouse and Pingdom compared with previous versions",
+    ],
+  },
+  {
     title: "Full Stack Web Developer",
     job: "Godfrey Marketing",
     date: "2022-2025",
     contents: [
       "Worked closely with the Director of Web Development, Web Designers, CMS Authors, Project Managers and Account Management to achieve an understanding of the project’s scope and purpose",
       "Provided support by collaborating to develop websites and software from concept to completion, ensuring strong optimization and functionality while considering the client’s products, services, and target audience",
-      "Developed and maintained various in-house projects, including the godfrey.com website, an AI Prompt library, a software development server, and an internal store using various technologies, including: Concrete5, C#, Linux, WordPress, PHP, MySQL, HTML,SCSS, CSS and JavaScript",
+      "Developed and maintained various in-house projects, including the godfrey.com website, an AI Prompt library, a software development server, and an internal store using various technologies, including: Concrete5, C#, Linux, WordPress, PHP, MySQL, HTML, SCSS, CSS and JavaScript",
       "Identified issues and constructively contributed solutions during the concept/plan/develop stages along with assisting with testing coded pages and applications",
       "Debugging and problem solving across a wide variety of tasks and support tickets on various platforms",
     ],
@@ -295,7 +308,7 @@ export const experiences = [
     job: "WebFX",
     date: "2020-2022",
     contents: [
-      "Coordinated, implemented, tested, and provided support of web-based projects ",
+      "Coordinated, implemented, tested, and provided support of web-based projects",
       "Programmed, developed, and produced data-driven web applications and websites using the latest technology solutions and software, such as PHP 8+ and WordPress 6.0+",
       "Consulted with clients to ensure the use of effective Internet-based technologies for enterprise business applications",
       "Implemented solutions to drive forward clients that do multi seven-figure revenue yearly",
@@ -317,15 +330,16 @@ export const experiences = [
     ],
   },
   {
-    title: "Freelance Developer",
+    title: "Web Development Consultant",
     job: "Self-Employed",
-    date: "2020-Present",
+    date: "2016-Present",
     contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-      "Worked closely with clients to decide on details and designs to produce small business e-commerce websites on CMS like WordPress and Wix",
+      "Worked closely with clients, including StinceBuilt.com, FuelAndFlourishPA.com, and YotaBearingsAndHubs.com, to decide on details and designs to produce small business e-commerce websites on CMS platforms like WordPress and Wix",
+      "Partnered with Fuel & Flourish’s owner and a freelance designer to design and implement a customized Shopify storefront using Liquid templating, establishing a live online ordering channel for meals and products and reducing reliance on manually recorded orders",
       "Implemented solutions to help the client gain an edge on a competitor and upsell existing users",
       "Increased profit margin for client by eliminating the need for a ‘middle man’ listing fee from online marketplaces like Ebay",
+      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise",
+      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies",
     ],
   },
 ];
