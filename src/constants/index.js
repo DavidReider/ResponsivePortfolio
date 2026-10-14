@@ -16,7 +16,7 @@ export const myProjects = [
     tags: [
       { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
       { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 3, name: "SCSS", path: "/assets/logos/scss.svg" },
       { id: 4, name: "MySQL", path: "/assets/logos/mysql.svg" },
       { id: 5, name: "Git", path: "/assets/logos/git.svg" },
     ],
@@ -39,7 +39,7 @@ export const myProjects = [
       { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
       { id: 2, name: "MySQL", path: "/assets/logos/mysql.svg" },
       { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 4, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 4, name: "SCSS", path: "/assets/logos/scss.svg" },
       { id: 5, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
@@ -82,7 +82,7 @@ export const myProjects = [
     tags: [
       { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
       { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 3, name: "SCSS", path: "/assets/logos/scss.svg" },
       { id: 4, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
@@ -103,7 +103,7 @@ export const myProjects = [
     tags: [
       { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
       { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 3, name: "SCSS", path: "/assets/logos/scss.svg" },
       { id: 4, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
