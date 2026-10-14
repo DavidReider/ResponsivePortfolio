@@ -2,6 +2,7 @@ import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
   const skills = [
+    "claude-ai",
     "csharp",
     "css3",
     "dotnet",
@@ -12,8 +13,12 @@ export function Frameworks() {
     "javascript",
     "microsoft",
     "microsoftsqlserver",
+    "mysql",
+    "openai-chatgpt",
     "react",
+    "scss",
     "sqlite",
+    "shopify",
     "tailwindcss",
     "visualstudiocode",
     "vitejs",
