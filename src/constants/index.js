@@ -1,85 +1,114 @@
 export const myProjects = [
   {
     id: 1,
-    title: "Solenis.com",
+    title: "Blink Cincinnati",
     description:
-      "After a global aquisition, Solenis underwent a rebrand to unite and unify the branding of 120+ websites and 4,000+ pages. As a web developer on the project, I helped implement the design and bring it to life.",
+      "Led the implementation of a redesign for the nation's largest public light and art festival, streamlining the site for both visitors and CMS authors.",
     subDescription: [
-      "Built a scalable application with .NET Framework and .NET Core, utilizing MVC to build reusable components.",
-      "Implemented Optimzely CMS properties and blocks to build out web pages and assist with CMS entry",
-      "Designed a responsive frontend with custom SCSS, enhancing user experience.",
+      "Built on a custom proprietary PHP-based CMS with custom modules, SCSS, and a MySQL database.",
+      "Stripped back old, unused, and unwanted features to simplify the site.",
+      "Implemented new features, sections, and custom modules for the redesign.",
+      "Improved usability for frontend visitors and backend CMS authors alike.",
     ],
-    href: "https://www.solenis.com/en/",
+    href: "https://www.blinkcincinnati.com/",
     logo: "",
-    image: "/assets/projects/solenis.png",
+    image: "/assets/projects/blinkcincinnati.png",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
+      { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
+      { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 4, name: "MySQL", path: "/assets/logos/mysql.svg" },
+      { id: 5, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
   {
     id: 2,
-    title: "Sustainability.Solenis.com",
+    title: "Urban Assembly",
     description:
-      "Developed a sustainability microsite to present ESG data in a modular, accessible format, enhancing clarity for various audiences.",
+      "Led the redesign and migration of a nonprofit's site into a cleaner, simpler experience, built from scratch from desktop design through responsive implementation.",
     subDescription: [
-      "Rebuilt site structure with reusable content blocks for scalability and brand consistency.",
-      "Implemented frontend components with SCSS and JavaScript for dynamic UI elements.",
-      "Utilized Optimizely CMS with C#, .NET Core, and MVC for data-driven modules.",
-      "Focused on accessibility and information hierarchy to improve user experience.",
-      "Integrated seamlessly with the main Solenis site while maintaining a distinct identity.",
+      "Built on a custom proprietary PHP-based CMS with custom modules, SCSS, and a MySQL database.",
+      "Implemented the desktop design, responsive design, and all functionality from scratch.",
+      "Simplified many pages for a better overall UX/UI while staying true to the original site.",
+      "Assisted with the data migration from the old site using custom scripts.",
     ],
-    href: "https://sustainability.solenis.com/",
+    href: "https://www.urbanassembly.org/",
     logo: "",
-    image: "/assets/projects/sustainability_solenis.png",
+    image: "/assets/projects/urbanassembly.png",
     tags: [
-      { id: 1, name: "C#", path: "/assets/logos/csharp.svg" },
-      { id: 2, name: ".Net", path: "/assets/logos/dotnet.svg" },
-      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
-      { id: 4, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
+      { id: 2, name: "MySQL", path: "/assets/logos/mysql.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 5, name: "Git", path: "/assets/logos/git.svg" },
     ],
   },
   {
     id: 3,
-    title: "Boys and Girls Club of Lancaster",
+    title: "Fuel and Flourish PA",
     description:
-      "Collaborated with a local nonprofit to revamp their WordPress site, enhancing usability, accessibility, and donation processes.",
+      "Freelance build for a local start-up meal prep company, delivering a simple, visually appealing Shopify store the owner can manage herself and use to run weekly meal sales.",
     subDescription: [
-      "Implemented new designs using Gutenberg editor, translating Figma files into flexible WordPress blocks.",
-      "Developed custom reusable block patterns, including a modular Events page.",
-      "Integrated and customized Gravity Forms with PayPal for donations.",
-      "Enhanced SEO by replacing image-based copy with semantic HTML elements.",
+      "Connected the owner with a designer, then implemented the finished design.",
+      "Recommended Shopify and built the site with Liquid templating plus custom HTML, CSS, and JavaScript.",
+      "Assisted with store setup, domain connection, and launch.",
+      "Provided documentation for day-to-day Shopify use and ongoing support as needed.",
     ],
-    href: "https://bgclanc.org/",
+    href: "https://fuelandflourishpa.com/",
     logo: "",
-    image: "/assets/projects/bgclanc.png",
+    image: "/assets/projects/fuelandflourishpa.png",
     tags: [
-      { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
-      { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
-      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
+      { id: 1, name: "Shopify", path: "/assets/logos/shopify.svg" },
+      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
     ],
   },
   {
     id: 4,
+    title: "Hudson Library",
+    description:
+      "Turned a desktop-only design into a fully responsive website and implemented additional backend customization for a public library.",
+    subDescription: [
+      "Built on a custom proprietary PHP-based CMS with custom modules, SCSS, and a MySQL database.",
+      "Transformed a desktop-only design into a fully responsive, functioning website.",
+      "Implemented new custom modules on the backend.",
+      "Adjusted project scope based on evolving client demands.",
+      "Tested and debugged across various mobile devices and browsers.",
+    ],
+    href: "https://www.hudsonlibrary.org/",
+    logo: "",
+    image: "/assets/projects/hudsonlibrary.png",
+    tags: [
+      { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
+      { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
+    ],
+  },
+  {
+    id: 5,
+    title: "Diocese of Cleveland",
+    description:
+      "Transformed a desktop-only design into a fully responsive, functioning website and tested it across mobile devices and browsers.",
+    subDescription: [
+      "Built on a custom proprietary PHP-based CMS with custom modules, SCSS, and a MySQL database.",
+      "Implemented responsive layouts from a desktop-only design.",
+      "Tested and debugged across a variety of mobile devices and browsers.",
+      "Wrote maintainable SCSS and JavaScript to match the existing codebase.",
+    ],
+    href: "https://www.dioceseofcleveland.org/",
+    logo: "",
+    image: "/assets/projects/dioceseofcleveland.png",
+    tags: [
+      { id: 1, name: "PHP", path: "/assets/logos/php.svg" },
+      { id: 2, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 3, name: "CSS3/SCSS", path: "/assets/logos/sass.svg" },
+      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
+    ],
+  },
+  {
+    id: 6,
     title: "California Sports Surfaces",
     description:
       "Supported ongoing WordPress development and led the creation of an interactive feature for users to design and visualize athletic courts.",
@@ -101,7 +130,139 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 7,
+    title: "Boys and Girls Club of Lancaster",
+    description:
+      "Collaborated with a local nonprofit to revamp their WordPress site, enhancing usability, accessibility, and donation processes.",
+    subDescription: [
+      "Implemented new designs using Gutenberg editor, translating Figma files into flexible WordPress blocks.",
+      "Developed custom reusable block patterns, including a modular Events page.",
+      "Integrated and customized Gravity Forms with PayPal for donations.",
+      "Enhanced SEO by replacing image-based copy with semantic HTML elements.",
+    ],
+    href: "https://bgclanc.org/",
+    logo: "",
+    image: "/assets/projects/bgclanc.png",
+    tags: [
+      { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
+      { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
+    ],
+  },
+  {
+    id: 8,
+    title: "OrganicLawns",
+    description:
+      "Developed an interactive feature for an eco-focused lawn care company to enhance user engagement and clarify service availability.",
+    subDescription: [
+      "Created an 'Areas We Serve' section using Google Maps API, JavaScript, and CSS.",
+      "Built reusable WordPress blocks for modular content editing.",
+      "Collaborated on design enhancements to improve usability and brand alignment.",
+      "Contributed to frontend maintenance and performance tuning.",
+    ],
+    href: "https://www.organiclawns.net/",
+    logo: "",
+    image: "/assets/projects/organiclawns.png",
+    tags: [
+      { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
+      { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
+    ],
+  },
+  {
+    id: 9,
+    title: "StinceBuilt",
+    description:
+      "Built a WooCommerce-based PC configurator to let users fully customize their builds.",
+    subDescription: [
+      "Developed a custom part picker using WooCommerce add-ons.",
+      "Added dynamic compatibility filtering for a smooth UX.",
+      "Enhanced UI with JavaScript and CSS adjustments.",
+      "Ensured seamless integration with the eCommerce flow.",
+      "Provided post-launch support across devices and browsers.",
+    ],
+    href: "https://stincebuilt.com/",
+    logo: "",
+    image: "/assets/projects/stincebuilt.png",
+    tags: [
+      { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
+      { id: 2, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+      { id: 4, name: "PHP", path: "/assets/logos/php.svg" },
+    ],
+  },
+  {
+    id: 10,
+    title: "YotaBearingsAndHubs",
+    description:
+      "Built my first site: an eCommerce store for my father's bearing and hub business, moving from eBay to Wix.",
+    subDescription: [
+      "Created a custom eCommerce site on Wix to cut third-party fees.",
+      "Structured product categories and pricing for easy shopping.",
+      "Used HTML/CSS/JS where allowed to enhance UX.",
+      "Set up payment and shipping for smooth transactions.",
+      "Trained my client (dad) on site updates and order management.",
+    ],
+    href: "https://www.yotabearingsandhubs.com/",
+    logo: "",
+    image: "/assets/projects/yotabearingsandhubs.png",
+    tags: [
+      { id: 1, name: "Wix", path: "/assets/logos/wix.svg" },
+      { id: 2, name: "HTML5", path: "/assets/logos/html5.svg" },
+      { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
+      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
+    ],
+  },
+  {
+    id: 11,
+    title: "Solenis.com",
+    description:
+      "After a global acquisition, Solenis underwent a rebrand to unite and unify the branding of 120+ websites and 4,000+ pages. As a web developer on the project, I helped implement the design and bring it to life.",
+    subDescription: [
+      "Built a scalable application with .NET Framework and .NET Core, utilizing MVC to build reusable components.",
+      "Implemented Optimizely CMS properties and blocks to build out web pages and assist with CMS entry.",
+      "Designed a responsive frontend with custom SCSS, enhancing user experience.",
+    ],
+    href: "https://www.solenis.com/en/",
+    logo: "",
+    image: "/assets/projects/solenis.png",
+    tags: [
+      { id: 1, name: "C#", path: "/assets/logos/csharp.svg" },
+      { id: 2, name: ".Net", path: "/assets/logos/dotnet.svg" },
+      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 4, name: "CSS3", path: "/assets/logos/css3.svg" },
+    ],
+  },
+  {
+    id: 12,
+    title: "Sustainability.Solenis.com",
+    description:
+      "Developed a sustainability microsite to present ESG data in a modular, accessible format, enhancing clarity for various audiences.",
+    subDescription: [
+      "Rebuilt site structure with reusable content blocks for scalability and brand consistency.",
+      "Implemented frontend components with SCSS and JavaScript for dynamic UI elements.",
+      "Utilized Optimizely CMS with C#, .NET Core, and MVC for data-driven modules.",
+      "Focused on accessibility and information hierarchy to improve user experience.",
+      "Integrated seamlessly with the main Solenis site while maintaining a distinct identity.",
+    ],
+    href: "https://sustainability.solenis.com/",
+    logo: "",
+    image: "/assets/projects/sustainability_solenis.png",
+    tags: [
+      { id: 1, name: "C#", path: "/assets/logos/csharp.svg" },
+      { id: 2, name: ".Net", path: "/assets/logos/dotnet.svg" },
+      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 4, name: "CSS3", path: "/assets/logos/css3.svg" },
+    ],
+  },
+];
+
+// Removed from the main portfolio for now, kept for reference / future use
+export const myOtherProjects = [
+  {
+    id: 1,
     title: "Godfrey.com",
     description:
       "As an in-house developer, contributed to the evolution and maintenance of the agency’s website, focusing on frontend, CMS, and backend upgrades.",
@@ -124,7 +285,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 6,
+    id: 2,
     title: "LeaveYourMarkWithJLG",
     description:
       "Developed a campaign landing page for JLG Industries, handling infrastructure setup, WordPress deployment, and performance support.",
@@ -145,7 +306,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 7,
+    id: 3,
     title: "LowLevelAccess.JLG.com",
     description:
       "Created a landing page for JLG Industries' low-level access solutions campaign, emphasizing flexibility and performance.",
@@ -163,103 +324,6 @@ export const myProjects = [
       { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
       { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
       { id: 5, name: "PHP", path: "/assets/logos/php.svg" },
-    ],
-  },
-  {
-    id: 8,
-    title: "OrganicLawns",
-    description:
-      "Developed an interactive feature for an eco-focused lawn care company to enhance user engagement and clarify service availability.",
-    subDescription: [
-      "Created an 'Areas We Serve' section using Google Maps API, JavaScript, and CSS.",
-      "Built reusable WordPress blocks for modular content editing.",
-      "Collaborated on design enhancements to improve usability and brand alignment.",
-      "Contributed to frontend maintenance and performance tuning.",
-    ],
-    href: "https://www.organiclawns.net/",
-    logo: "",
-    image: "/assets/projects/organiclawns.png",
-    tags: [
-      { id: 1, name: "WordPress", path: "/assets/logos/wordpress.svg" },
-      { id: 3, name: "CSS3", path: "/assets/logos/css3.svg" },
-      { id: 4, name: "JavaScript", path: "/assets/logos/javascript.svg" },
-      { id: 5, name: "PHP", path: "/assets/logos/php.svg" },
-    ],
-  },
-  {
-    id: 9,
-    title: "StinceBuilt",
-    description:
-      "Built a WooCommerce-based PC configurator to let users fully customize their builds.",
-    subDescription: [
-      "Developed a custom part picker using WooCommerce add-ons.",
-      "Added dynamic compatibility filtering for a smooth UX.",
-      "Enhanced UI with JavaScript and CSS adjustments.",
-      "Ensured seamless integration with the eCommerce flow.",
-      "Provided post-launch support across devices and browsers.",
-    ],
-    href: "https://stincebuilt.com/",
-    logo: "",
-    image: "/assets/projects/stincebuilt.png",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
-      {
-        id: 4,
-        name: "PHP",
-        path: "/assets/logos/php.svg",
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "YotaBearingsAndHubs",
-    description:
-      "Built my first site: an eCommerce store for my father's bearing and hub business, moving from eBay to Wix.",
-    subDescription: [
-      "Created a custom eCommerce site on Wix to cut third-party fees.",
-      "Structured product categories and pricing for easy shopping.",
-      "Used HTML/CSS/JS where allowed to enhance UX.",
-      "Set up payment and shipping for smooth transactions.",
-      "Trained my client (dad) on site updates and order management.",
-    ],
-    href: "https://www.yotabearingsandhubs.com/",
-    logo: "",
-    image: "/assets/projects/yotabearingsandhubs.png",
-    tags: [
-      {
-        id: 1,
-        name: "Wix",
-        path: "/assets/logos/wix.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.svg",
-      },
     ],
   },
 ];
